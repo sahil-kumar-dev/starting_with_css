@@ -1,26 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Starting with css</title>
 </head>
 <style>
-	.paragraph__main{
+	.paragraph__main {
 		background-color: lightblue;
 	}
-	.paragraph__header{
+
+	.paragraph__header {
 		font-weight: bold;
 		font-size: 2rem;
 	}
-	.paragraph__content{
+
+	.paragraph__content {
 		color: gray;
 	}
+	.paragraph__important{
+		background-color: gray;
+	}
+	.paragraph__highleted{
+		font-weight: bold;
+		font-size: 2rem;
+		color: greenyellow;
+	}
+	.paragraph_description{
+		color: yellow;
+	}
 </style>
+
 <body>
-	<div class="paragraph__main">
-		<p class="paragraph__header"></p>
-		<p class="paragraph__content"></p>
+
+	<!-- This is the main section of the article so named it paragraph main and inside it paragraph__header and for content paragraph__content-->
+
+	<div class="paragraph__main"> 
+		<p class="paragraph__header">
+			Lorem ipsum dolor sit amet.
+		</p>
+		<p class="paragraph__content">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo cumque exercitationem fugiat ullam,perferendis molestias ea architecto sunt dicta.
+		</p>
+	</div>
+
+
+	
+	<!-- This is the important section of the article so name it paragraph__important and highleted the text inside it by using paragraph__highleted and for descrition paragraph_description -->
+	<div class="paragraph__important">
+		<p class="paragraph__highleted">
+			Lorem ipsum dolor sit amet.
+		</p>
+		<p class="paragraph_description">
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque quam nobis aperiam repellat alias obcaecati corporis tenetur inventore odio?
+		</p>
 	</div>
 </body>
+
 </html>
